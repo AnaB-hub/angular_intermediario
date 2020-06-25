@@ -1,27 +1,25 @@
 # Curso Intermediário de Angular - Digital Innovation One
 
-Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
-
-O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
+Repositório criado com o intuito de armazenar os códigos gerados durante o curso "Técnicas avançadas em Angular 8".
 
 ## Instalação
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
-2. Entre no projeto e instale as dependencias `npm install`
+1. Clone o projeto: `git@github.com:AnaB-hub/angular_intermediario.git`;
+2. Baixe as dependencias: `npm install`;
 
-## Ambiente Local
+## Executar
 
-Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código
+Utilize os comandos `ng serve`, `npm run start` ou `npm start` para subir a aplicação;
 
-## Simulando o Back-end
+## Subindo o Json Server
 
-Execute `npm install -g json-server` para instalar globalmente o servidor json. Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
+Seguindo a documentação do [JsonServer](https://github.com/typicode/json-server), é necessário executar o comando `json-server --watch db.json`, para subir o fake REST API. Caso não tenha o Json Server em sua máquina, execute o comando `npm install -g json-server`, para instalar de forma global e poder utilizá-lo em outros projetos, se necessário.
 
-## Gerando componente
+## Tecnologias
 
-Execute `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado dentro do diretório `dist/`. Adicionar `--prod` junto comando de build para gerar minificado e pronto para o ambiente de produção.
-
+* Angular 8
+* Angular/cli 8.3.5
+* Angular Material 8.2.0
+* SASS
+* Typescript 3.5
+* JSON Server
